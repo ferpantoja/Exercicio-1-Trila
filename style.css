@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: #292929;
+}
+.name-title {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 35px;
+  color: white;
+}
+
+span {
+  background-color: aqua;
+  border-radius: 8px;
+  color: black;
+}
+
+.menu-nav {
+  text-align: right;
+  padding-right: 80px;
+}
+
+.menu-nav ul li {
+  display: inline;
+}
+
+a {
+  margin: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 25px;
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: aqua;
+  transition: 0.5s;
+}
+
+.avatar {
+  width: 350px;
+  border-radius: 150px;
+  margin-top: 80px;
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
+
+#sessao-sobre {
+  color: white;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.p-principal p {
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.title-stacks {
+  color: white;
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+#sessao-stacks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.img-stacks {
+  width: 150px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.img-stacks2 {
+  width: 100px;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+.img-stacks3 {
+  width: 100px;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+
+.portfolio-title-2 {
+  color: white;
+  font-size: 50px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+span p {
+  background-color: aqua;
+  border-radius: 8px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.paragrafo-portfolio {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.737);
+  text-align: center;
+  margin-top: 30px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 100px;
+}
+.title-projetos {
+  margin-left: 20px;
+  font-size: 25px;
+  color: cornflowerblue;
+}
+
+.paragrafo-projetos {
+  font-size: 25px;
+  color: azure;
+}
+
+.footer {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer a img {
+  width: 100px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.footer a img:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+#sessao-contato h5 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.campo-preencher {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.h3-footer {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.737);
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.campo-preencher label {
+  font-size: 20px;
+  color: aqua;
+  padding: 10px;
+}
+
+input {
+  width: 100px;
+  height: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.campo-preencher div {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.button-contato {
+  width: 55px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.button-contato:hover {
+  background-color: cornflowerblue;
+  border: 2px solid white;
+  transition: 0.5s;
+}
